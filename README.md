@@ -2,6 +2,7 @@
 
 Se nos pide armar un programa que ayude a entender qué cosas le gustan a distintas personas.
 
+polimorficamente tenemos color, peso y material
 
 ## Objetos y personas
 
