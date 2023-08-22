@@ -27,3 +27,9 @@ object pardo {
 	method colorFuerte() = false
 	
 }
+
+object naranja {
+	
+	method color() = "naranja"
+	method colorFuerte() = true
+	}

@@ -1,7 +1,7 @@
 import materiales.*
 import colores.*
 
-object remeraRoja {
+object remera {
 	
 	method material() = lino
 	method peso() = 800
@@ -37,7 +37,7 @@ object munieco{
 
 object placaDeCobre{
 	var peso = 0
-	var color = rojo
+	var color = celeste
 	
 	method material() = madera
 	method peso(pesoASettear) {peso = pesoASettear}
@@ -46,5 +46,25 @@ object placaDeCobre{
 	method color() = color
 }
 
+object arito {
+	method material() = cobre
+	method peso() = 180
+	method color() = celeste
+}
 
+object banquito {
+	var color = naranja
 
+	method material() = madera
+	method peso() = 1700
+	method color(colorASettear) {color = colorASettear}
+}
+
+object cajita {
+	var contenido 
+	
+	method ponerContenido(objetoASetear) {contenido = objetoASetear}
+	method material() = cobre
+	method color() = rojo
+	method peso() {return 400 + contenido.peso()}
+}
